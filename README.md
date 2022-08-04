@@ -4,3 +4,8 @@ Do whatever you want with this but I'd advise to stay lawful, anyways I am not r
 
 HINT-
 Combine it with the proxy from the mega downloader.
+
+SOURCE - <br />
+MITM sms bombing websites, they use your computer to make the api requests so that they have no involvment in whatever you do.
+
+Again, I don't care what you do with this but I am not responsible in any way for whatever you do.
