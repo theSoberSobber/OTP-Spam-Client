@@ -84,3 +84,45 @@
   "body": "{\"mobileNumber\":\"1234567890\",\"otpTemplateId\":\"5b4e2e49b70e040008ffbcbe\"}",
   "method": "POST"
 });
+
+### https://www.playrummy.com/mobileLogin.php
+- payload --> deviceid=WEB-YourIPAdressHere-1660066556&mobilenumber=1234567890&currenttimestamp=1660066619608&retrycount=0&appos=generic_website&signup=0&latitude=0&longitude=0&newaccount=0&register=0&encryptedkey=eefe02d5f0140c1a8d64eacde0bed7e2
+- fetch("https://www.playrummy.com/mobileLogin.php", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,hi;q=0.8,la;q=0.7",
+    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "sec-ch-ua": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest",
+    "cookie": "PHPSESSID=n1qrpj8om95240pfqi02i7ui82; client_sid=WEB-196.244.217.74-1660066556",
+    "Referer": "https://www.playrummy.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "deviceid=WEB-YourIPAdressHere-1660066556&mobilenumber=1234567890&currenttimestamp=1660066619608&retrycount=0&appos=generic_website&signup=0&latitude=0&longitude=0&newaccount=0&register=0&encryptedkey=eefe02d5f0140c1a8d64eacde0bed7e2",
+  "method": "POST"
+});
+
+### https://userauth.voot.com/usersV3/v3/checkUser
+- payload --> {"type":"mobile","mobile":"1234567890","countryCode":"+91"}
+- fetch("https://userauth.voot.com/usersV3/v3/checkUser", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9,hi;q=0.8,la;q=0.7",
+    "content-type": "application/json;charset=UTF-8",
+    "sec-ch-ua": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://www.voot.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "{\"type\":\"mobile\",\"mobile\":\"1234567890\",\"countryCode\":\"+91\"}",
+  "method": "POST"
+});
