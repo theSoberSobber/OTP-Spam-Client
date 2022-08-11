@@ -68,7 +68,6 @@
     "accept": "application/json",
     "accept-language": "en-US,en;q=0.9,hi;q=0.8,la;q=0.7",
     "bbversion": "v2",
-    "clientsessionid": "1665439339693",
     "content-type": "application/json",
     "correlationid": "8d91e852-54e7-4653-bbd3-da4193b3c2e4",
     "module": "odin",
@@ -99,7 +98,6 @@
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "x-requested-with": "XMLHttpRequest",
-    "cookie": "PHPSESSID=n1qrpj8om95240pfqi02i7ui82; client_sid=WEB-196.244.217.74-1660066556",
     "Referer": "https://www.playrummy.com/",
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
@@ -124,5 +122,29 @@
     "Referrer-Policy": "strict-origin-when-cross-origin"
   },
   "body": "{\"type\":\"mobile\",\"mobile\":\"1234567890\",\"countryCode\":\"+91\"}",
+  "method": "POST"
+});
+
+### https://blinkit.com/v2/accounts/
+- payload --> user_phone=1234567890
+- fetch("https://blinkit.com/v2/accounts/", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,hi;q=0.8,la;q=0.7",
+    "app_client": "consumer_web",
+    "auth_key": "4e3a92e963f19dae3ca71ad372bb6e53d0c3c3493a4cd3bf33e376335b3a1757",
+    "content-type": "application/x-www-form-urlencoded",
+    "platform": "mobile_web",
+    "rn_bundle_version": "1009003012",
+    "sec-ch-ua": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://blinkit.com/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": "user_phone=1234567890",
   "method": "POST"
 });
