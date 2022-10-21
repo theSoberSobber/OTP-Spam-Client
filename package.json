@@ -1,0 +1,29 @@
+{
+  "name": "otp-api-endpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc ./server/*",
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSoberSobber/otp-api-endpoints.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSoberSobber/otp-api-endpoints/issues"
+  },
+  "homepage": "https://github.com/theSoberSobber/otp-api-endpoints#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.0"
+  }
+}

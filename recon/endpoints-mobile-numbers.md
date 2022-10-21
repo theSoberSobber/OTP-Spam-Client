@@ -2,18 +2,7 @@
 - payload -> {"mobile":"1234567890","type":"user","origin":"snap_checkout"}
 - fetch("https://api.snapmint.com/v1/logins/send_otp", {
   "headers": {
-    "accept": "*/*",
-    "accept-language": "en-US,en;q=0.9,hi;q=0.8,la;q=0.7",
-    "authorization": "Bearer undefined",
     "content-type": "application/json; charset=UTF-8",
-    "sec-ch-ua": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"Windows\"",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site",
-    "Referer": "https://emis.snapmint.com/",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
   },
   "body": "{\"mobile\":\"1234567890\",\"type\":\"user\",\"origin\":\"snap_checkout\"}",
   "method": "POST"

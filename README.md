@@ -1,16 +1,13 @@
-# otp-api-endpoints
-A list of API endpoints that send OTP's when a POST request is made to them.
-Do whatever you want with this but I'd advise to stay lawful, anyways I am not responsible for whatever you do.
+# OTP Spammer
+This project was made for absolutely no reason other than I was bored.
+But still, it does create a purpose for itself on it's own.
+    - Companies should make their endpoints have some kind of authorization
+        - probably some bearer tokens and cookies
 
-HINT-
-Combine it with the proxy from the mega downloader.
+---
+***NOTE*** - This was made just as a POC.
 
-TODO - <br />
-Add curl commands instead of node fetches.
+---
 
-SOURCE - <br />
-MITM sms bombing websites, they use your computer to make the api requests so that they have no involvment in whatever you do.
-
-Again, I don't care what you do with this but I am not responsible in any way for whatever you do.
-
-PS - yes, this is what I do when I am bored. Please continue judging me now, I'll join soon too.
+### Contributing -
+- You can add more otpObj's in otpApis.ts file 

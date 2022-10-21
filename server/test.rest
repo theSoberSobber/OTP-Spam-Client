@@ -1,0 +1,11 @@
+post localhost:3000/send
+
+Content-Type: application/json
+
+{
+    "p_num": 1234567890,
+    "captcha": "idk_something"
+}
+
+###
+
